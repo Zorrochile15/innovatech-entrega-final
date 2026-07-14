@@ -13,7 +13,7 @@ services:
       - db_data:/var/lib/mysql
 
   backend-ventas:
-    build: ./innovatech-backend-ventas # Asumiendo que esta es la carpeta
+    build: ./innovatech-backend-ventas 
     container_name: ventas-local
     ports:
       - "8080:8080"
